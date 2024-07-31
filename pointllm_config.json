@@ -1,0 +1,31 @@
+{
+    "architectures": [
+      "PointLLMLlamaForCausalLM"
+    ],
+    "bos_token_id": 1,
+    "eos_token_id": 2,
+    "hidden_act": "silu",
+    "hidden_size": 4096,
+    "initializer_range": 0.02,
+    "intermediate_size": 11008,
+    "max_position_embeddings": 2048,
+    "model_type": "pointllm",
+    "num_attention_heads": 32,
+    "num_hidden_layers": 32,
+    "pad_token_id": 0,
+    "rms_norm_eps": 1e-06,
+    "tie_word_embeddings": false,
+    "torch_dtype": "float16",
+    "transformers_version": "4.28.1",
+    "use_cache": true,
+    "vocab_size": 32000,
+    "point_backbone": "PointBERT",
+    "point_backbone_ckpt": "",
+    "point_backbone_config_name": "PointTransformer_8192point_2layer",
+    "use_color": true,
+    "mm_use_point_start_end": true,
+    "DEFAULT_POINT_PATCH_TOKEN": "<point_patch>",
+    "DEFAULT_POINT_START_TOKEN": "<point_start>",
+    "DEFAULT_POINT_END_TOKEN": "<point_end>"
+  }
+  
